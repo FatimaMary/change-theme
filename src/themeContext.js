@@ -4,7 +4,7 @@ const {Provider, Consumer} = React.createContext()
 
 class ThemeContextProvider extends Component {
     state = {
-        theme: "dark"
+        theme: "light"
     }
     
     toggleTheme = () => {
